@@ -1,0 +1,124 @@
+.image{
+    height: 60vh;
+}
+#root{
+    width: 60%;
+}
+.content{
+    font-size: 18px;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+}
+#root, #related-links{
+    padding: 0px;
+    margin: 0px;
+}
+#related-links{
+    width: 30%;
+    height: 100vh;
+}
+.list{
+    line-height: 40px;
+}
+.container{
+    border: 5px solid #61b15a;
+    display: flex;
+    justify-content: space-evenly ;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #61b15a;
+    color: white;
+    padding-left: 8px;
+}
+.about, .contact{
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.about:hover, .contact:hover{
+    color: black;
+}
+.footer{
+    text-align: center;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    background-color: #61b15a;
+    color: white;
+    font-size: 20px;
+}
+.sm-a{
+    color: white;
+    padding: 20px;
+}
+.sm-a:hover{
+    color: black;
+}
+@media (max-width: 600px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #root{
+        width: 90%;
+        margin: auto;
+    }
+    #related-links{
+        width: 90%;
+        height: auto;
+        border: 2px solid black;
+    }
+}
+@media (max-width: 500px){
+    .title{
+        font-size: 22px;
+    }
+    .content{
+        font-size: 16px;
+    }
+}
+@media (max-width: 450px){
+    .heading{
+        font-size: 22px;
+    }
+    .about, .contact{
+        font-size: 15px;
+        margin: 2px;
+    }
+    .footer{
+        font-size: 15px;
+    }
+    .image{
+        height: 40vh;
+    }
+}
+@media(max-width: 350px){
+    .header{
+        display: flex;
+        flex-direction: column;
+    }
+    .image{
+        height: 30vh;
+    }
+}
+@media(max-width: 220px){
+    .image{
+        height: 20vh;
+    }
+    .relatedTitle{
+        font-size: 16px;
+    }
+    #related-links{
+        width: 100%;
+    }
+    .list{
+        font-size: 12px;
+    }
+}
