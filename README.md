@@ -9,3 +9,6 @@ The basic markup is designed using HTML, designing of the web page is implemente
 
 The live link for the project is given below:
 
+https://ashwini-rathod.github.io/Blog-Rendering/index.html
+
+
